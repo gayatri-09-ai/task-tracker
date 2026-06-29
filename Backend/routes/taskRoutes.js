@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Task = require("../models/Task.js");
+import Task from "../models/Task.js";
 
 // GET All Tasks
 router.get("/", async (req, res) => {
